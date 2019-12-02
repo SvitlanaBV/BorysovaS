@@ -1,0 +1,508 @@
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Aleo:300,400,700&display=swap");
+.cls-1 {
+  fill: #fff;
+  fill-rule: evenodd;
+}
+
+.cls-2 {
+  fill: #ff6363;
+  fill-rule: evenodd;
+}
+
+.cls-3 {
+  fill: #5474fd;
+  fill-rule: evenodd;
+}
+
+.cls-4 {
+  fill: #333;
+}
+
+.cls-5 {
+  fill: #00a2ff;
+  fill-rule: evenodd;
+}
+
+body {
+  margin: 0;
+}
+
+h1 {
+  font: 700 48px "Josefin Sans", sans-serif;
+  text-transform: uppercase;
+}
+
+h2 {
+  font: 400 36px "Aleo", sans-serif;
+  margin: 0;
+}
+
+p {
+  font: 300 16px "Josefin Sans", sans-serif;
+  line-height: 1.6;
+}
+
+a:focus {
+  outline: none;
+  opacity: 0.8;
+}
+
+.s1 {
+  color: #fff;
+  background: #0460a6 url("image/bg1.jpg") no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+.s1 .inner {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.s1 .inner h1 {
+  align-self: center;
+  margin-top: 244px;
+  margin-bottom: 0;
+  letter-spacing: 3px;
+}
+.s1 .inner h5 {
+  align-self: center;
+  font: 300 22px "Josefin Sans", sans-serif;
+  letter-spacing: 5.8px;
+  margin-top: 4px;
+  margin-bottom: 48px;
+}
+.s1 .inner form {
+  align-self: center;
+}
+.s1 .inner form input {
+  color: grey;
+  font: 300 14px "Josefin Sans", sans-serif;
+  letter-spacing: 2.3px;
+  text-align: center;
+  width: 500px;
+  height: 60px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  padding: 0;
+  box-sizing: border-box;
+  float: left;
+}
+.s1 .inner form input:focus {
+  outline: none;
+  opacity: 0.8;
+}
+.s1 .inner form button {
+  height: 60px;
+  background-color: #5474fd;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+  width: 226px;
+  letter-spacing: 1px;
+  font: 400 14px "Aleo", sans-serif;
+  width: 150px;
+  background: #5474fd url("image/search.png") no-repeat 116px 18px;
+}
+.s1 .inner form button:focus {
+  outline: none;
+  box-shadow: 2px 2px 2px #212c43;
+  opacity: 0.9;
+}
+.s1 .inner form button:hover {
+  background-color: #0837fc;
+}
+.s1 .inner form button:active {
+  background-color: #0229cf;
+}
+.s1 .inner form:before, .s1 .inner form:after {
+  clear: both;
+}
+.s1 .inner a {
+  font: 300 14px "Josefin Sans", sans-serif;
+  align-self: center;
+  color: white;
+  text-decoration: none;
+  letter-spacing: 2px;
+  margin-top: 8px;
+  position: absolute;
+  bottom: 100px;
+}
+.s1 .inner a:hover {
+  color: #a9c0ff;
+}
+.s1 .inner a svg {
+  width: 14px;
+  height: 8px;
+  display: block;
+  margin: 12px auto 0;
+}
+.s1 header {
+  height: 80px;
+  background-color: #5474fd;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+.s1 header a {
+  text-transform: uppercase;
+  font: 400 24px "Josefin Sans", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+.s1 header a:hover {
+  color: #ff6363;
+}
+.s1 header nav a {
+  font: 400 14px "Aleo", sans-serif;
+  margin-left: 40px;
+  letter-spacing: 0;
+}
+.s1 header nav a:hover {
+  color: #ff6363;
+}
+.s1 header div {
+  max-width: 1116px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.s2 {
+  height: 688px;
+  background: #323131 url("image/bg9.jpg") no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.s2 .inner {
+  width: 1110px;
+  margin: 0 auto;
+  color: white;
+  padding-top: 120px;
+}
+.s2 .inner div:first-of-type {
+  float: left;
+  max-width: 532px;
+}
+.s2 .inner div:first-of-type h2 {
+  margin-top: 80px;
+  margin-bottom: 54px;
+}
+.s2 .inner div:first-of-type p {
+  letter-spacing: 1px;
+  margin-bottom: 28px;
+}
+.s2 .inner div:last-of-type {
+  float: right;
+  min-width: 476px;
+  display: flex;
+  flex-direction: column;
+}
+.s2 .inner div:last-of-type img:first-of-type {
+  align-self: flex-start;
+}
+.s2 .inner div:last-of-type img:last-of-type {
+  align-self: flex-end;
+  padding-top: 5px;
+}
+.s2 .inner:before, .s2 .inner:after {
+  clear: both;
+}
+.s2 #Explore {
+  height: 60px;
+  background-color: #5474fd;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+  width: 226px;
+  letter-spacing: 1px;
+  font: 400 14px "Aleo", sans-serif;
+  border: none;
+  margin-top: 14px;
+  letter-spacing: 2.5px;
+}
+.s2 #Explore:focus {
+  outline: none;
+  box-shadow: 2px 2px 2px #212c43;
+  opacity: 0.9;
+}
+.s2 #Explore:hover {
+  background-color: #0837fc;
+}
+.s2 #Explore:active {
+  background-color: #0229cf;
+}
+
+.s3 {
+  height: 334px;
+  background: #323131 url("image/Shape1.png") no-repeat center 40px;
+  width: 100%;
+  color: white;
+}
+.s3 div {
+  width: 1030px;
+  height: 180px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 70px;
+}
+.s3 div div {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 160px;
+  margin: 0;
+  align-items: center;
+  padding-top: 0;
+}
+.s3 div div:nth-child(2) {
+  margin: 0 120px;
+}
+.s3 div div .ellipse {
+  width: 96px;
+  height: 96px;
+  background: #323131;
+  border-radius: 50%;
+  position: relative;
+}
+
+.s4 {
+  font: 400 20px "Josefin Sans", sans-serif;
+  height: 700px;
+  background: #323131 url("image/bg3.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+}
+.s4 .inner {
+  width: 1110px;
+  margin: 0 auto;
+  height: 100%;
+  position: relative;
+}
+.s4 .inner .wide {
+  box-sizing: border-box;
+  width: 540px;
+  height: 370px;
+  padding: 30px;
+  background: rgba(35, 35, 35, 0.9);
+  position: absolute;
+  top: 230px;
+}
+.s4 .inner .wide h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  margin-bottom: 21px;
+}
+.s4 .inner .wide h4 {
+  margin-top: 19px;
+  font-weight: 300;
+  letter-spacing: 0.75px;
+}
+.s4 .inner .wide p {
+  letter-spacing: -0.6px;
+  margin-bottom: 42px;
+}
+.s4 .inner .wide button {
+  height: 60px;
+  background-color: #5474fd;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+  width: 226px;
+  letter-spacing: 1px;
+  font: 400 14px "Aleo", sans-serif;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+.s4 .inner .wide button:focus {
+  outline: none;
+  box-shadow: 2px 2px 2px #212c43;
+  opacity: 0.9;
+}
+.s4 .inner .wide button:hover {
+  background-color: #0837fc;
+}
+.s4 .inner .wide button:active {
+  background-color: #0229cf;
+}
+
+.s5 {
+  font: 400 20px "Josefin Sans", sans-serif;
+  height: 700px;
+  background: #323131 url("image/bg4.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+}
+.s5 .inner {
+  max-width: 1110px;
+  margin: 0 auto;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.s5 .inner .wide {
+  width: 540px;
+  height: 370px;
+  padding: 30px;
+  background: rgba(35, 35, 35, 0.9);
+  box-sizing: border-box;
+  margin-bottom: 100px;
+}
+.s5 .inner .wide h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: -3px;
+  margin-bottom: 21px;
+}
+.s5 .inner .wide h4 {
+  font-weight: 300;
+  letter-spacing: 0.75px;
+  margin-top: 19px;
+}
+.s5 .inner .wide p {
+  letter-spacing: -0.6px;
+  margin-bottom: 42px;
+}
+.s5 .inner .wide button {
+  height: 60px;
+  background-color: #5474fd;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  color: white;
+  box-sizing: border-box;
+  padding: 0;
+  width: 226px;
+  letter-spacing: 1px;
+  font: 400 14px "Aleo", sans-serif;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 1.5px;
+}
+.s5 .inner .wide button:focus {
+  outline: none;
+  box-shadow: 2px 2px 2px #212c43;
+  opacity: 0.9;
+}
+.s5 .inner .wide button:hover {
+  background-color: #0837fc;
+}
+.s5 .inner .wide button:active {
+  background-color: #0229cf;
+}
+
+.s6 {
+  font: 300 15px "Josefin Sans", sans-serif;
+  height: 730px;
+  background: #323131 url("image/bg5.jpg") no-repeat;
+  background-size: cover;
+  color: white;
+}
+.s6 .inner {
+  max-width: 1110px;
+  height: 640px;
+  margin: 0 auto;
+  padding-top: 90px;
+}
+.s6 .inner h2 {
+  text-align: center;
+  font: 400 36px "Aleo", sans-serif;
+  margin-top: 26px;
+  margin-bottom: 90px;
+  letter-spacing: 0.4px;
+}
+.s6 .inner h3 {
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+.s6 .inner div {
+  height: 284px;
+}
+.s6 .inner div .float {
+  height: 284px;
+  box-sizing: border-box;
+  padding-left: 60px;
+  float: right;
+  width: calc(100% - 445px);
+  background: #333333;
+}
+.s6 .inner div img {
+  float: left;
+}
+.s6 .inner div p {
+  width: 558px;
+  line-height: 1.6;
+  letter-spacing: -0.55px;
+}
+.s6 .inner div:before,
+.s6 .inner div:after {
+  content: "";
+  clear: both;
+}
+.s6 svg {
+  height: 36px;
+  width: 20px;
+  margin: 0 0 4px 0;
+  color: #fff;
+}
+.s6 svg.blue {
+  color: #5474fd;
+}
+
+footer.s7 {
+  height: 270px;
+  background-color: #232323;
+}
+footer.s7 .inner {
+  width: 200px;
+  height: 150px;
+  margin: 0 auto;
+  text-align: center;
+}
+footer.s7 .inner h1 {
+  margin-top: 30px;
+  font-size: 24px;
+  letter-spacing: 2px;
+  margin-bottom: 8px;
+}
+footer.s7 .inner p {
+  margin-top: 0;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+footer.s7 .inner #icon {
+  height: 50px;
+}
+footer.s7 .inner #icon a svg {
+  height: 28px;
+  width: 18px;
+  margin: 0 7px 0;
+}
+footer.s7 .inner #icon a svg.blue {
+  color: #5474fd;
+}
+footer.s7 .inner #icon a:focus {
+  outline: none;
+  opacity: 0.6;
+}
+footer.s7 .inner #icon a:hover svg {
+  color: #ff6363;
+}
+
+/*# sourceMappingURL=main.css.map */
