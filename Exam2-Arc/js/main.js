@@ -6,6 +6,12 @@
         $(this).css("background", "rgba(33, 44, 67, 0)");
     });
 
+    $(".overlay1").hover(function(){
+        $(this).css("background", "rgba(33, 44, 67, 0.1) url(\"image/Rectangle13.png\") center no-repeat");
+    }, function(){
+        $(this).css("background", "rgba(33, 44, 67, 0)");
+    });
+
     $(function () {
         $('#slider').slick({
             arrows: false,

@@ -356,9 +356,7 @@ h4 {
     .img {
       background-size: cover;
       height: 244px;
-      &:hover {
-        opacity: 0.8;
-      }
+      position: relative;
       &.img0 {
         background: #fff url("image/lauren-mancke-60633.jpg") no-repeat;
       }
@@ -367,6 +365,15 @@ h4 {
       }
       &.img2 {
         background: #fff url("image/joel-filipe-151690.jpg") no-repeat;
+      }
+      .overlay1 {
+        position: absolute;
+        background: rgba(33, 44, 67, 0);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: block;
       }
     }
     a {
