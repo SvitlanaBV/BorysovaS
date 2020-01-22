@@ -341,13 +341,6 @@ h4 {
     border-bottom: 1px solid white;
     margin: 30px auto;
   }
-  h3 {
-    font-weight: 700;
-    font-family: 'gothambold', sans-serif;
-    line-height: 34px;
-    letter-spacing: 0;
-    padding-left: 24px;
-  }
   p {
     letter-spacing: 0;
     height: 65px;
@@ -374,6 +367,19 @@ h4 {
       }
       &.img2 {
         background: #fff url("image/joel-filipe-151690.jpg") no-repeat;
+      }
+    }
+    a {
+      font: 700 22px 'gothambold', sans-serif;
+      line-height: 34px;
+      letter-spacing: 0;
+      padding: 16px 24px 4px;
+      margin-bottom: 4px;
+      text-transform: uppercase;
+      color: #2c4058;
+      &:hover {
+        color: #55b7ff;
+        opacity: 0.8;
       }
     }
   }
