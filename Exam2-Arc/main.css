@@ -393,6 +393,11 @@ h4 {
   height: 100%;
   display: block;
 }
+.s4 div.sl .img img {
+  height: 244px;
+  max-width: 100%;
+  object-fit: cover;
+}
 .s4 div.sl a {
   font: 700 22px "gothambold", sans-serif;
   line-height: 34px;
