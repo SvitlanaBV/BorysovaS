@@ -1,0 +1,22 @@
+.air-q {
+  padding: 50px 0;
+}
+.air-q-title {
+  text-align: center;
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 41px;
+  color: white;
+}
+.air-q-map {
+  height: 560px;
+  margin: 42px 0;
+}
+.air-q-text {
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  color: white;
+}
+
+/*# sourceMappingURL=Airquality.css.map */

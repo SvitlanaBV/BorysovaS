@@ -1,0 +1,67 @@
+.sectors {
+  padding: 50px 0;
+}
+.sectors-title {
+  font-weight: normal;
+  font-size: 35px;
+  line-height: 41px;
+  color: white;
+  text-align: center;
+  margin-bottom: 42px;
+}
+.sectors-subtitle {
+  font-weight: normal;
+  font-size: 23px;
+  line-height: 27px;
+  color: white;
+  margin: 42px 0 30px;
+}
+.sectors-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.sectors-list-item {
+  position: relative;
+  width: calc((100% / 3) - 70px);
+  height: 240px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.sectors-list-item-name {
+  width: 100%;
+  text-align: center;
+  font-size: 23px;
+  line-height: 30px;
+  color: #222222;
+  background: rgba(255, 255, 255, 0.83);
+}
+.sectors-list-item-tooltip {
+  position: absolute;
+  left: 100%;
+  width: 380px;
+  pointer-events: none;
+  appearance: none;
+  background-color: #DADADA;
+  padding: 16px 16px 16px 75px;
+  clip-path: polygon(100% 0, 100% 100%, 75px 100%, 0 50%, 75px 0);
+  z-index: 1;
+}
+.sectors-list-item-tooltip-switched {
+  left: initial;
+  right: 100%;
+  clip-path: polygon(calc(100% - 75px) 0, 100% 50%, calc(100% - 75px) 100%, 0 100%, 0 0);
+  padding: 16px 75px 16px 16px;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=SectorsList.css.map */
