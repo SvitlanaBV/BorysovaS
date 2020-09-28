@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/airquality/static/css/main.57a0375f.chunk.css",
+    "main.js": "/airquality/static/js/main.86df7d5b.chunk.js",
+    "main.js.map": "/airquality/static/js/main.86df7d5b.chunk.js.map",
+    "runtime-main.js": "/airquality/static/js/runtime-main.09675401.js",
+    "runtime-main.js.map": "/airquality/static/js/runtime-main.09675401.js.map",
+    "static/css/2.e0686c58.chunk.css": "/airquality/static/css/2.e0686c58.chunk.css",
+    "static/js/2.27a4f813.chunk.js": "/airquality/static/js/2.27a4f813.chunk.js",
+    "static/js/2.27a4f813.chunk.js.map": "/airquality/static/js/2.27a4f813.chunk.js.map",
+    "index.html": "/airquality/index.html",
+    "precache-manifest.e709330cc25c89f0f1dbdb92bba108e3.js": "/airquality/precache-manifest.e709330cc25c89f0f1dbdb92bba108e3.js",
+    "service-worker.js": "/airquality/service-worker.js",
+    "static/css/2.e0686c58.chunk.css.map": "/airquality/static/css/2.e0686c58.chunk.css.map",
+    "static/css/main.57a0375f.chunk.css.map": "/airquality/static/css/main.57a0375f.chunk.css.map",
+    "static/js/2.27a4f813.chunk.js.LICENSE.txt": "/airquality/static/js/2.27a4f813.chunk.js.LICENSE.txt",
+    "static/media/HeroBlock.scss": "/airquality/static/media/hero-bg.b236af76.jpg",
+    "static/media/logo1.svg": "/airquality/static/media/logo1.341a487c.svg",
+    "static/media/logo2.svg": "/airquality/static/media/logo2.2f311a05.svg",
+    "static/media/logo3.svg": "/airquality/static/media/logo3.0662d9de.svg",
+    "static/media/prom1.jpg": "/airquality/static/media/prom1.3d66b58c.jpg",
+    "static/media/prom2.jpg": "/airquality/static/media/prom2.fb06d4dd.jpg",
+    "static/media/prom3.jpg": "/airquality/static/media/prom3.a3fe3aa1.jpg",
+    "static/media/prom4.jpg": "/airquality/static/media/prom4.17b056bd.jpg",
+    "static/media/prom5.jpg": "/airquality/static/media/prom5.1d9ae9e9.jpg",
+    "static/media/prom6.jpg": "/airquality/static/media/prom6.fd744a55.jpg",
+    "static/media/slide1.jpg": "/airquality/static/media/slide1.3e6d941c.jpg",
+    "static/media/slide2.jpg": "/airquality/static/media/slide2.2d01e323.jpg",
+    "static/media/slide3.jpg": "/airquality/static/media/slide3.638ec227.jpg",
+    "static/media/slide4.jpg": "/airquality/static/media/slide4.8a21e8b7.jpg",
+    "static/media/slide5.jpg": "/airquality/static/media/slide5.bb9f49bb.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.09675401.js",
+    "static/css/2.e0686c58.chunk.css",
+    "static/js/2.27a4f813.chunk.js",
+    "static/css/main.57a0375f.chunk.css",
+    "static/js/main.86df7d5b.chunk.js"
+  ]
+}
